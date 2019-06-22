@@ -1,8 +1,8 @@
 import React from 'react';
-import MainBlock from './components/MainBlock';
+import Section from './components/Section';
 
-const App = () => {
-  return <MainBlock />;
-};
+const App = () => (
+  <Section />
+);
 
 export default App;
